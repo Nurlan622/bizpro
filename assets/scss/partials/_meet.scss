@@ -1,0 +1,63 @@
+#meet-page,#blog-page {
+    .container .meet-about-page {
+        position: relative;
+        padding-top: 100px;
+
+        p {
+
+
+            margin-top: 40px;
+            color: slategrey;
+        }
+
+        .line {
+            margin-left: 49%;
+            width: 25px;
+            height: 3px;
+            background-color: #d73e4d;
+        }
+    }
+    .container .row .col-4{
+        .meet-people{
+            padding-top: 50px;
+            padding-bottom: 100px;
+            .img{
+                img{
+                    width: 100%;
+                }
+            }
+        .content{
+            background-color: rgba(230,230,230,0.9);
+            h5{
+                color: #292929;
+            }
+            span{
+                color: #6f6f6f;
+            }
+        }
+        }
+    }
+}
+
+
+
+
+
+#blog-page{
+    .blog-about-page{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        img{
+            width: 100%;
+        }
+        .content{
+            padding-top: 40px;
+            p{
+                color: #292929;
+            }   
+            span{
+                font-size: 14px;
+            }
+        }
+    }
+}
